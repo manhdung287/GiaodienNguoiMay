@@ -1,0 +1,169 @@
+/* Reset CSS */
+body,form{
+	margin:0;
+	padding:0;
+}
+:focus {/* remember to define focus styles! */
+	outline: 0;
+}
+table {/* tables still need 'cellspacing="0"' in the markup */
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a img {
+	border: 0;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+a{
+	text-decoration:none;
+    outline:none;
+}
+input, textarea, select, button{
+	border-radius:0;
+    outline:none;
+}
+/* WordPress Core */
+.alignnone {
+	margin: 0 0 20px 0;
+	display: block;
+}
+.aligncenter, 
+div.aligncenter {
+	display: block;
+	margin: 5px auto;
+}
+.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+.aligncenter {
+	display: block;
+	margin: 5px auto;
+}
+a img.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+	margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+.wp-caption {
+	 background: #fff;
+	 max-width: 96%;
+	 padding: 5px 3px 10px;
+	 text-align: center;
+}
+.wp-caption-text {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 7px;
+}
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin: 5px 20px 15px 0;
+}
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+	 border: 0 none;
+	 height: auto;
+	 margin: 0;
+	 max-width: 98.5%;
+	 padding: 0;
+	 width: auto;
+}
+.wp-caption p.wp-caption-text {
+	 font-size: 11px;
+	 line-height: 1.5em;
+	 margin: 0;
+	 padding: 0 4px 5px;
+}
+img.wp-smiley {
+	vertical-align: middle;
+}
+h1.regular, h2.regular, h3.regular, h4.regular, h5.regular, h6.regular {
+    font-weight: 400;
+}
+blockquote {
+    border-left: 4px solid #ADD3DD;
+    padding: 0 10px 0 22px;
+    quotes: none;
+}
+img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+.dropcap {
+    color: #D93E39;
+    display: block;
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 0 10px 2px 0;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+/* End Rs Style */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+ clip: rect(1px, 1px, 1px, 1px);
+ position: absolute !important;
+        white-space: nowrap;
+ height: 1px;
+ width: 1px;
+ overflow: hidden;
+}
+
+.screen-reader-text:focus {
+ background-color: #f1f1f1;
+ border-radius: 3px;
+ box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+ clip: auto !important;
+ color: #21759b;
+ display: block;
+ font-size: 14px;
+ font-size: 0.875rem;
+ font-weight: bold;
+ height: auto;
+ left: 5px;
+ line-height: normal;
+ padding: 15px 23px 14px;
+ text-decoration: none;
+ top: 5px;
+ width: auto;
+ z-index: 100000; /* Above WP toolbar. */
+}

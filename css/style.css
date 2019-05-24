@@ -1,0 +1,52 @@
+img{
+	max-width:100%;
+	height: 100%;
+}
+.content {
+	background: url("../images/BKmain.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+}
+.help{
+	background: url(../images/help.jpg);
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+}
+#content {
+	position: relative;
+	height: 100vh;
+}
+.nav--menu{
+	position: absolute;
+	top: 55%;
+	left: 47%;
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+	width: 40vw;
+}
+.nav--menu a{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: SVN-Blue;
+	font-size: 34px;
+}
+.nav--menu a:hover{
+	color:gold;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+.playgame img:hover{
+	border: 1px solid red;
+	/*background: red;*/
+}
+.playgame img{
+	border-radius: 10px;
+	border: 1px solid #ffffff;
+}
